@@ -1,0 +1,36 @@
+.constituency-map-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  min-width: 350px;
+}
+
+.map-placeholder {
+  margin: 18px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.map-legend {
+  display: flex;
+  gap: 24px;
+  font-size: 0.98rem;
+  color: #333;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.legend-dot.jlp {
+  background: #111;
+}
+
+.legend-dot.pnp {
+  background: #d32f2f;
+}

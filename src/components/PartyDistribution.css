@@ -1,0 +1,42 @@
+.party-distribution-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.donut-chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.party-legend {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.legend-dot.jlp {
+  background: #111;
+}
+
+.legend-dot.pnp {
+  background: #d32f2f;
+}
+
+.legend-dot.undecided {
+  background: #bbb;
+}

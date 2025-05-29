@@ -1,0 +1,36 @@
+.turnout-parish-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 18px;
+  height: 120px;
+  margin-top: 12px;
+}
+
+.bar-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.bar {
+  width: 22px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 6px;
+  background: #d32f2f;
+  transition: height 0.3s;
+}
+
+.bar-label {
+  font-size: 0.95em;
+  color: #222;
+  margin-top: 3px;
+}

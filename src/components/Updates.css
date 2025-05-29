@@ -1,0 +1,63 @@
+.updates-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  min-width: 250px;
+}
+
+.updates-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updates-header h3 {
+  margin: 0;
+}
+
+.refresh-btn {
+  border: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+}
+
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0 0;
+}
+
+.update-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.update-dot {
+  width: 8px;
+  height: 8px;
+  background: #d32f2f;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.update-item.jlp .update-dot {
+  background: #111;
+}
+
+.update-item.pnp .update-dot {
+  background: #d32f2f;
+}
+
+.update-text {
+  flex: 1;
+}
+
+.update-time {
+  color: #888;
+  font-size: 0.95em;
+}

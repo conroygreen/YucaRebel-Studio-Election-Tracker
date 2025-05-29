@@ -1,0 +1,69 @@
+.race-majority-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  min-width: 350px;
+  margin-bottom: 20px;
+}
+
+.race-majority-card h3 {
+  margin: 0 0 14px 0;
+  font-size: 1.2rem;
+  color: #111;
+}
+
+.race-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.race-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.race-party-label {
+  min-width: 40px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.race-party-label.jlp {
+  color: #111;
+}
+
+.race-party-label.pnp {
+  color: #d32f2f;
+}
+
+.race-bar-outer {
+  width: 200px;
+  height: 18px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin: 0 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.race-bar-inner.jlp {
+  background: #111;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.race-bar-inner.pnp {
+  background: #d32f2f;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.race-bar-count {
+  min-width: 28px;
+  text-align: right;
+  font-weight: 600;
+  color: #222;
+}

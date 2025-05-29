@@ -1,0 +1,30 @@
+.footer-bar {
+  background: #111;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 24px 40px;
+  font-size: 1em;
+}
+
+.footer-data {
+  font-size: 0.91em;
+  color: #bbb;
+}
+
+.footer-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #d32f2f;
+}

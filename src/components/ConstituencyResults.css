@@ -1,0 +1,101 @@
+.results-table-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 24px;
+  margin-top: 18px;
+}
+
+.results-table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.results-search {
+  padding: 7px 14px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  background: #fafafa;
+}
+
+.results-table {
+  width: 100%;
+  margin-top: 15px;
+  border-collapse: collapse;
+}
+
+.results-table th, .results-table td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 1.05em;
+}
+
+.results-table th {
+  background: #f4f4f4;
+  font-weight: 700;
+  color: #111;
+}
+
+.results-table tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.winner-badge {
+  padding: 2px 10px;
+  border-radius: 8px;
+  font-size: 0.95em;
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+}
+
+.winner-badge.jlp {
+  background: #111;
+}
+
+.winner-badge.pnp {
+  background: #d32f2f;
+}
+
+.status-badge {
+  font-size: 0.95em;
+  padding: 2px 9px;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.status-badge.confirmed {
+  background: #111;
+}
+
+.status-badge.recount {
+  background: #d32f2f;
+}
+
+.results-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  color: #666;
+}
+
+.pagination-btn {
+  margin-left: 8px;
+  border: none;
+  background: #f4f4f4;
+  color: #111;
+  padding: 6px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.pagination-btn:hover {
+  background: #d32f2f;
+  color: #fff;
+}

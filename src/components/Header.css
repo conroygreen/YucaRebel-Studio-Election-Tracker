@@ -1,0 +1,57 @@
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  padding: 0 32px;
+  height: 68px;
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.flag {
+  width: 32px;
+  height: 20px;
+  background: linear-gradient(90deg, #111 0%, #fff 100%);
+  border: 2px solid #fff;
+  margin-right: 12px;
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.header-meta {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  font-size: 1rem;
+}
+
+.live-dot {
+  width: 10px;
+  height: 10px;
+  background: #d32f2f;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+.live-label {
+  color: #d32f2f;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.header-date {
+  color: #888;
+}
+
+.header-updated {
+  color: #888;
+  font-size: 0.95em;
+}
